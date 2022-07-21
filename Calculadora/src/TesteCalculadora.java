@@ -28,7 +28,6 @@ public class TesteCalculadora {
         calculadora.EscolherOperacao();
     
     
-    
-    sc.close();
+sc.close();
 }
 }
