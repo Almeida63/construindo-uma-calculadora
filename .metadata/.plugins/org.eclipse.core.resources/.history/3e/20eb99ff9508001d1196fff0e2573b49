@@ -1,0 +1,34 @@
+import java.util.Scanner;
+public class TesteCalculadora {
+	public static void main(String [] args) {
+	 Scanner sc = new Scanner(System.in);	
+	
+	Calculadora calculadora = new Calculadora();
+	
+	System.out.println(" + = Soma");
+	
+	System.out.println(" - = Divisão");
+	
+	System.out.println("x = Multiplicação");
+	
+	System.out.println("/ = Divisão");
+	
+	System.out.println();
+	
+	System.out.println("Digite o primeiro valor: ");
+	calculadora.v1 = sc.nextInt();
+	
+	System.out.println("Digite o segundo valor: ");
+	calculadora.v2 = sc.nextInt();
+	
+	
+	System.out.println("Digite uma operação: ");
+    calculadora.operacao = sc.next();
+    
+    calculadora.EscolherOperacao();
+    
+    
+    
+    sc.close();
+}
+}
