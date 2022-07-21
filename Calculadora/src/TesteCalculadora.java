@@ -23,9 +23,9 @@ public class TesteCalculadora {
 	
 	
 	System.out.println("Digite uma operação: ");
-    calculadora.operacao = sc.next();
+        calculadora.operacao = sc.next();
     
-    calculadora.EscolherOperacao();
+        calculadora.EscolherOperacao();
     
     
     
